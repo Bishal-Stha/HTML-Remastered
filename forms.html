@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="input.php" method="post">
+        Username: <input type="text" name="Username" size="10" maxlength="15">
+        <br>
+        Password: <input type="password" name="Password" size="10" maxlength="20">
+        <br>
+        <textarea name="Comment Section" id="" cols="30" rows="10">Add your Comment...</textarea>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+
+    <p>Enter your most favourite Programming language: </p>
+    <form action="fuck.php" method="get">
+         <input type="radio" name="favProgLang" value="Python" > python
+         <input type="radio" name="favProgLang" value="JavaScript" checked> JavaScript
+         <input type="radio" name="favProgLang" value="Kotlin" > Kotlin
+         <input type="radio" name="favProgLang" value="C++" > C++
+    </form>
+
+    <p>Enter your favourite Programming languages: </p>
+    <form action="fuck.php" method="get">
+         <input type="checkbox" name="ProgLang" value="Python" > python
+         <input type="checkbox" name="ProgLang" value="JavaScript" > JavaScript
+         <input type="checkbox" name="ProgLang" value="Kotlin" > Kotlin
+         <input type="checkbox" name="ProgLang" value="C++" > C++
+    </form>
+
+    <p>Drop-Down list of Programming languages</p>
+    <form action="cum.php" method="get">
+        <select required size="1px" translate="yes" >
+            <option value="Object Oriented Programming language">Object Oriented Programming language
+                <!-- <option value="C++">C++</option>
+                <option value="JavaScript">JavaScript</option> -->
+                
+            </option>
+            <option value="Procedural Oriented Language">Procedural Oriented Language
+                <!-- <option value="C">C Language</option>
+                <option value="python">Python</option> -->
+            </option>
+        </select>
+    </form>
+
+    <!--Submit files-->
+    <p>Submitting files and music.</p>
+    <form action="savannahBond.php" method="get">
+        <input type="file" name="music">
+        <input type="submit" value="upload">
+    </form>
+
+    <form action="imageButton.php">
+        <br>
+        Email: <input type="email" name="Email" id="myEmail">
+        <button style="
+        color: white;
+        background-color: #000;
+        font-size: 1.1em;
+        border-radius: 10%;
+        " title="follow Me">Follow</button>
+    </form>
+
+    <h3>Using Label properly</h3>
+    <form action="levelSabkeNiklenge.php">
+        <label for="username">Username: <input type="text" id="username"></label>
+        <label for="password">Password: <input type="password" id="password"></label>
+        <input type="submit" value="Log In">
+    </form>
+
+    <h1>Grouping Form Elements</h1>
+    <fieldset style="height:fit-content; width:fit-content;">
+        <legend>Contact Details</legend>
+        <label for="name">Name: <input type="text" name="name" id="name" required></label>
+        <label for="contactNumber">Contact Number: <input type="number" name="Contact number" id="contactNumber" required></label>
+        <input type="submit" value="Save">
+    </fieldset>
+
+    
+    <form>
+        <fieldset>
+            <h1>Dates in Form, search and color</h1>
+        <label for="todayDate">Date Today: <input type="date" name="date" id="todayDate"></label>
+        <label for="search">Search: <input type="search" name="search" id="search"></label>
+        <label for="color">Color: <input type="color" name="color" id="color"></label>
+        <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+    
+</body>
+</html>
